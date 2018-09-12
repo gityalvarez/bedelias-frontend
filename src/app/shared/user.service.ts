@@ -10,7 +10,7 @@ import{User}  from '../user';
 
 @Injectable()
 export class UserService {
-  private baseUrl:string='http://localhost:8080/api';
+  private baseUrl:string='http://18.217.188.91:8080/spring-boot-jboss-wildfly-master/api';
   private headers = new Headers({'Content-Type':'application/json'});
   private options = new RequestOptions({headers:this.headers});
   private user = new User();
